@@ -35,8 +35,92 @@ input, textarea, button, select {
   font-weight: inherit;
 }
 
+.ly_header {
+  margin-top: 32px;
+}
+
+.bl_headerConts {
+  padding: 0 16px;
+  text-align: center;
+}
+
 .bl_headerConts_ttl {
+  color: #20284e;
   font-family: "Montserrat", sans-serif;
+}
+
+.bl_headerConts_nav {
+  margin-top: 32px;
+}
+
+.bl_headerConts_list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.bl_headerConts_link {
+  display: block;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #f5be48;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.ly_cont {
+  width: 90%;
+  margin: 200px auto 100px;
+}
+
+.bl_sect {
+  padding: 40px;
+  border-radius: 24px;
+  background-color: #eee;
+}
+
+.bl_sect:not(:first-child) {
+  margin-top: 40px;
+}
+
+.bl_lv2Heading {
+  font-family: "Montserrat", sans-serif;
+  color: #20284e;
+}
+
+.bl_sect_txt:first-of-type {
+  margin-top: 8px;
+}
+
+.bl_sectBody {
+  margin-top: 50vh;
+}
+
+.bl_boxUnit.bl_boxUnit__children {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.bl_box {
+  width: 200px;
+  height: 200px;
+  margin: 2%;
+}
+
+.bl_box:nth-child(odd) {
+  background-color: #6496ab;
+}
+
+.bl_box:nth-child(even) {
+  background-color: #f5be48;
+}
+
+.bl_boxUnit.bl_boxUnit__single .bl_box {
+  margin-top: 40px;
 }
 
 .hp_aspect {
