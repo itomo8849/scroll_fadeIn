@@ -9,7 +9,7 @@ $(function() {
         $(this).addClass('is_show');
       }
     });
-    $('.js_fadeInItem_child').each(function() {
+    $('.js_fadeInTrigger').each(function() {
       var targetPosition = $(this).offset().top;
       if(scrollTop > targetPosition - wHeight + setHeight) {
         $(this).addClass('is_show');
