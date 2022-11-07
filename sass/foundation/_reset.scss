@@ -17,9 +17,11 @@ li {
   list-style: none;
   list-style-position: inside;
 }
-header a,footer a {
-  text-decoration: none;
-}
+header,footer{
+  a {
+    text-decoration: none;
+  }
+} 
 input,textarea,button,select {
   font-family: inherit;
   font-size: inherit;

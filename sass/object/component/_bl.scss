@@ -1,0 +1,7 @@
+@use "../../object/variables/" as var;
+@use "../../mixins/" as mix;
+@use "../../functions/" as func;
+
+.bl_headerConts_ttl{
+  font-family: var.$alphabetFont;
+}
